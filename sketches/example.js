@@ -2,11 +2,11 @@ const { Responsive, Scroll, Title, References } = P5jsTemplate;
 
 function setup() {
   Responsive.createResponsiveCanvas(
-    800,
-    600,
+    400,
+    200,
     '#canvas-container',
-    'fill',
-    false
+    'contain',
+    true
   );
   Scroll.init();
   Title.init(
